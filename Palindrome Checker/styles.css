@@ -1,0 +1,83 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #ddeb9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.palindrome-checker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.5rem;
+  color: #27667b;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.text-box {
+  background-color: #143d60;
+  color: #ddeb9d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.question-box {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.text-check {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#text-input {
+  border: none;
+  border-bottom: 2px solid #ddeb9d;
+  color: #ddeb9d;
+  background-color: #143d60;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#check-btn {
+  background-color: #ddeb9d;
+  border: none;
+  color: #143d60;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.result {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.info-box {
+  width: 380px;
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+  background-color: #b771e5;
+  color: #4635b1;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 1rem;
+}
